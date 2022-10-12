@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "es2016",                                  
+  
+      /* Modules */
+      "module": "commonjs",                                /* Specify what module code is generated. */
+      /* Emit */
+      "declaration": true,                                 /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+      "emitDeclarationOnly": true,                         /* Only output d.ts files and not JavaScript files. Useful when using module bundlers like webpack adn rollup */
+      "outDir": "./dist/types/",                                   /* Specify an output folder for all emitted files. */
+      // "removeComments": true,                           /* Disable emitting comments. */
+      // "noEmit": true,                                   /* Disable emitting files from a compilation. */
+      // "inlineSourceMap": true,                          /* Include sourcemap files inside the emitted JavaScript. */
+      // "inlineSources": true,                            /* Include source code in the sourcemaps inside the emitted JavaScript. */
+      "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+      // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+      "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+  
+      /* Type Checking */
+      "strict": true,                                      /* Enable all strict type-checking options. */
+      // "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+      // "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
+      // "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+      "allowUnreachableCode": true,                        /* Disable error reporting for unreachable code. */
+  
+      /* Completeness */
+      // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+      "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    }
+  }
+  
